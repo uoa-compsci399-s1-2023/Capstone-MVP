@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.homepage{
+    min-height: 100vh;
+    width:100%;
+    background-image: url('./homepage.jpg')
+    ;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+section:nth-child(even){
+    background: :#fff;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding-top: 9rem;
+}
+.slide .content{
+    flex:1 1 45rem;
+}
+.slide .image{
+    flex:1 1 45rem;
+}
+.slide .image img{
+    width=100%;
+    border-radius: 20px;
+    padding-right: 250px;
+}
+.slide .content span{
+    color: blue;
+    font-size: 2rem;
+    padding-left: 400px;
+}
+.slide .content h3{
+    color: black;
+    font-size: 3rem;
+    padding-left: 350px;
+}
+.slide .content p{
+    color: purple;
+    font-size: 20px;
+    padding: .5rem;
+    padding-left: 300px;
+}
+.logo img{
+    display: flex;
+    margin-left: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-bottom: none;
+}
+.nav{
+    flex: 1;
+    text-align: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav ul li::after{
+    content: '';
+    width:100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav ul li:hover::after{
+    width:100%;
+}
+a{
+    width: 100px;
+}
+p{
+    color: #000000;
+}
+.btn{
+    display: inline-block;
+    background: #4440A7;
+    color: #fff;
+    margin-left: 350px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.link_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 13px
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.link_btn:hover{
+    border: 1px solid #884BFA;
+    background: #884BFA;
+    transition: 1s;
+}
+nav.fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .OurStory h1{
+        font-size: 20px;
+    }
+    .nav ul li{
+        display: block;
+    }
+    .nav{
+        position: absolute;
+        background: #884BFA;
+        height: 100vh;
+        width:200px;
+        top: 0;
+        right: -200px;
+        text-align:left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav.fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav ul{
+        padding: 30px;
+    }
+}
+.Studentproject{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 50px;
+}
+.Studentproject h1{
+    color:blue;
+    font-size: 50px;
+}
+.Studentproject p{
+    color: blue;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 10px 0 40px
+}
+.search-icon{
+    text-align: center;
+    padding-right: 100px;
+}
+.Studentproject .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    gap:1.5rem;
+}
+.box {
+    padding:2.5rem;
+    background: #fff;
+    border-radius: 2rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: 5px 10px 5px #888888;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box .fa-heart{
+    position: absolute;
+    top: 20px;
+    background: #f0f8ff;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+.box .fa-eye{
+    position: absolute;
+    top: 20px;
+    background: #f0f8ff;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+.box .fa-heart:hover,
+.box .fa-eye:hover{
+    background: #8A2BE2;
+    color: #fff;
+}
+.box .fa-heart{
+    left:-10rem;
+}
+.box .fa-eye{
+    right:-10rem;
+}
+.box:hover .fa-heart{
+    left:30px;
+}
+.box:hover .fa-eye{
+    right:30px;
+}
+.box .fa-heart:focus{
+    color: red;
+    left: 30px;
+}
+.box .fa-heart:visited{
+    color: red;
+    right: 30px;
+}
+
+.box h3{
+    font-size: 1.5rem;
+}
+.icons i{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 3.5rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: .7rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.icons i:hover{
+    color:#fff;
+    background: purple; 
+}
+.search-form{
+    position: absolute;
+    background: #fff;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px 5px #888888;
+    top:100%; right:7%;
+    height: 6rem;
+    width: 50rem;
+    padding: 1rem;
+    display: none;
+}
+.search-form #search-box{
+    width: 100%;
+    border-bottom: 3px solid #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size:1.7rem;
+    color: black;
+    height: 100%;
+}
+.search-form label{
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    cursor: pointer;
+    color: black;
+}
+.search-form label:hover{
+    color: purple;
+    
+}
+#search-form #search-box::placeholder{
+    color: #eee;
+}
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance:none;
+}
+
+#search-form label:hover{
+    color:blue
+}
+#search-form #close{
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    top: 2rem; right:3rem;
+    font-size: 5rem;
+}
+.Studentreward{
+    min-height: 100%;
+    width:100%;
+    background-image: url('./UoA_bg.jpg')
+    ;
+    background-position: center;
+    position: relative;
+}
+

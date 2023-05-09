@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\CSS.css",
+      "PackagePath": "staticwebassets\\CSS.css"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\HTMLPage1.html",
+      "PackagePath": "staticwebassets\\HTMLPage1.html"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\Script1.js",
+      "PackagePath": "staticwebassets\\Script1.js"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\homepage.jpg",
+      "PackagePath": "staticwebassets\\homepage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Jack\\Desktop\\CS399\\Capstone_MVP\\wwwroot\\poster.jpg",
+      "PackagePath": "staticwebassets\\poster.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Capstone_MVP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Capstone_MVP.props",
+      "PackagePath": "build\\Capstone_MVP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Capstone_MVP.props",
+      "PackagePath": "buildMultiTargeting\\Capstone_MVP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Capstone_MVP.props",
+      "PackagePath": "buildTransitive\\Capstone_MVP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
